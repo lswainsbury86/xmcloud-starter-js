@@ -36,6 +36,11 @@ const mockPage: Page = {
         placeholders: {},
       },
     },
+    locale: 'en',
+    mode: {
+      isEditing: false,
+      isPreview: false,
+    },
   } as unknown as Page['layout'],
   locale: 'en',
 };
@@ -123,7 +128,7 @@ export const propsWithoutId = {
   },
 };
 
-// Props without fields
+// Props without fields (page has no route content for fallback tests)
 export const propsWithoutFields = {
   rendering: mockRendering,
   page: mockPageWithoutContent,
@@ -134,7 +139,7 @@ export const propsWithoutFields = {
   fields: undefined as unknown as typeof defaultProps.fields,
 };
 
-// Props without Content field
+// Props without Content field (page has no route content for fallback tests)
 export const propsWithoutContentField = {
   rendering: mockRendering,
   page: mockPageWithoutContent,
