@@ -173,7 +173,7 @@ export const Default: React.FC<ArticleHeaderProps> = ({ fields, page }) => {
               // Show toast notification
               toast({
                 title: 'Link copied!',
-                description: 'The link has been copied to your clipboard.',
+                description: 'The link has been copied to your clipboard',
                 duration: 3000, // Explicitly set duration
               });
 
