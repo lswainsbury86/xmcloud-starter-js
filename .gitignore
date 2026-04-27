@@ -1,4 +1,4 @@
-﻿# may contain OAuth secrets, do not commit
+# may contain OAuth secrets, do not commit
 .sitecore/user.json
 
 # NuGet cache for Sitecore CLI
@@ -49,3 +49,4 @@ packages/
 
 # VS Code settings
 .vscode/
+examples/kit-nextjs-skate-park/package-lock.json
